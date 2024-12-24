@@ -15,6 +15,7 @@ import static io.restassured.RestAssured.given;
 @Link(name = "Документация сервиса", url = "https://reqres.in/")
 @Owner("Кочергин Никита")
 public class RequresTest {
+
     private final static String URL = "https://reqres.in/";
 
     @Test
