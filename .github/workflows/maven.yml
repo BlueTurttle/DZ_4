@@ -1,4 +1,4 @@
-name: Run MTSBank tests
+name: Run reqres.in
 
 on:
   push
