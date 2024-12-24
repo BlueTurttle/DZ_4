@@ -1,9 +1,7 @@
 name: Run reqres.in
 
 on:
-  push:
-    branches:
-      - main  # Убедитесь, что действия запускаются только для ветки main
+  push # Убедитесь, что действия запускаются только для ветки main
 
 jobs:
   run_tests:
