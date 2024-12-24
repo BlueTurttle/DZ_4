@@ -19,7 +19,7 @@ jobs:
           distribution: 'adopt'
 
       - name: "Run tests"
-        run: mvn clean test
+        run: mvn clean test -X
         continue-on-error: true
 
       - name: "Show test logs"
